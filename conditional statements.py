@@ -1,30 +1,13 @@
-number = 0
+num = 63
 
-if number > 0:
-    print("Positive number")
+if num >= 0 and num <= 100:
+    if num >= 50 and num <= 75:
+        if num >= 60 and num <= 70:
+            print("The number is in the 60-70 range")
 
-elif number == 0:
-    print('Zero')
-else:
-    print('Negative number')
-
-print('This statement is always executed')
-
-
-number = 5
-
-# outer if statement
-if (number >= 0):
-    # inner if statement
-    if number == 0:
-      print('Number is 0')
-    
-    # inner else statement
-    else:
-        print('Number is positive')
-
-# outer else statement
-else:
-    print('Number is negative')
-
-# Output: Number is positive
+            num = 45
+            if num > 25:
+                num = 30
+                new_num = num * 2
+            print(num)
+            print(new_num)
