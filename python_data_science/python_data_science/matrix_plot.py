@@ -38,16 +38,3 @@ sns.heatmap(heatmap_data)
 
 plt.title('Heatmap of Selected Columns')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
